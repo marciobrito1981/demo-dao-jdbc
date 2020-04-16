@@ -30,7 +30,7 @@ public class Department implements Serializable {
 	}
 
 	public void setName(String name) {
-		name = name;
+		this.name = name;
 	}
 
 	@Override
@@ -62,7 +62,8 @@ public class Department implements Serializable {
 	public String toString() {
 		return "Department [id=" + id + ", name=" + name + "]";
 	}
-	
+
+
 	
 	
 	
